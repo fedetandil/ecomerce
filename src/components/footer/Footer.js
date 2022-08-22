@@ -17,9 +17,14 @@ export default function Footer() {
                         <Grid item xs={12} sm={4}>
                             <Box borderBottom={1}>Help</Box>
                             <Box>
-                                <Link href="/" color="inherit">
-                                    Contact
-                                </Link>
+                                <a
+                                    href="https://wa.me/2348100000000"
+                                    className="whatsapp_float"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fa fa-whatsapp whatsapp-icon"></i>
+                                </a>
                             </Box>
                             <Box>
                                 <Link href="/" color="inherit">

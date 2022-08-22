@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import CategoryHomeLayout from "./CategoryHomeLayout";
+import Carrusel from "../../carousel/Carrusel";
+
 
 export default function CategoryHomeContainer() {
     let smartItems= [{
@@ -74,6 +76,7 @@ export default function CategoryHomeContainer() {
         }];
     return (
         <>
+            <Carrusel/>
             <CategoryHomeLayout categoryName="Ofertas Smart TV" items={smartItems}/>
             <CategoryHomeLayout categoryName="Equipa tu Hogar" items={hogarItems}/>
             <CategoryHomeLayout categoryName="Ofertas Climatización" items={climatizacionItems}/>
