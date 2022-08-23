@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d70d98ac.css",
+    "main.js": "/static/js/main.96c9322c.js",
+    "static/js/787.46493d11.chunk.js": "/static/js/787.46493d11.chunk.js",
+    "static/media/SliderBici.png": "/static/media/SliderBici.3ce4f56a6aa418968a36.png",
+    "static/media/SliderHeladeras.png": "/static/media/SliderHeladeras.c6c7c2b453ba6e90e39b.png",
+    "static/media/Tv32.png": "/static/media/Tv32.b7828d85a9d4c3ab47de.png",
+    "static/media/Slider18csi.png": "/static/media/Slider18csi.39d063bca79379b68e01.png",
+    "static/media/Tv55.png": "/static/media/Tv55.103128b9ceb5b59439af.png",
+    "static/media/Tv40.png": "/static/media/Tv40.9e62855d8379de5dd90e.png",
+    "static/media/LG43.png": "/static/media/LG43.dc6e5ac8f799cac233fd.png",
+    "static/media/CocinaFlorencia.png": "/static/media/CocinaFlorencia.8e8ebe30dde945ec39b9.png",
+    "static/media/CocinaElectrolux.png": "/static/media/CocinaElectrolux.a6d93ee916272bff5486.png",
+    "static/media/Tv32resized.png": "/static/media/Tv32resized.67a01d80aba9ebc9bb02.png",
+    "static/media/CocinaVolcan.png": "/static/media/CocinaVolcan.3136fca8af5ce3856f2b.png",
+    "static/media/HeladeraKohinoor.png": "/static/media/HeladeraKohinoor.8ff20fb4306e58d3136e.png",
+    "static/media/eshopsmall.png": "/static/media/eshopsmall.4339a7c04f91dbf414f6.png",
+    "index.html": "/index.html",
+    "main.d70d98ac.css.map": "/static/css/main.d70d98ac.css.map",
+    "main.96c9322c.js.map": "/static/js/main.96c9322c.js.map",
+    "787.46493d11.chunk.js.map": "/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d70d98ac.css",
+    "static/js/main.96c9322c.js"
+  ]
+}
