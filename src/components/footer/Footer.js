@@ -18,7 +18,7 @@ export default function Footer() {
                             <Box borderBottom={1}>Help</Box>
                             <Box>
                                 <a
-                                    href="https://wa.me/2348100000000"
+                                    href="https://wa.me/542494640617"
                                     className="whatsapp_float"
                                     target="_blank"
                                     rel="noopener noreferrer"
