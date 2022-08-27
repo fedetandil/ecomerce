@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Smart Tv 32",
+    "image": "./Tv32.png",
+    "price": "5000",
+    "key": "1",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 40",
+    "image": "./Tv40.png",
+    "price": "15000",
+    "key": "2",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 40",
+    "image": "./Tv40.png",
+    "price": "15000",
+    "key": "3",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 40",
+    "image": "./Tv40.png",
+    "price": "15000",
+    "key": "4",
+    "stock": 5
+  }
+]

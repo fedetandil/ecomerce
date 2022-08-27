@@ -7,9 +7,10 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import QuantityInput from "./QuantityInput/QuantityInput";
 
 
-export default function ProductCard({name,image,price}) {
+export default function ProductCard({name,image,price,stock}) {
     return (
         <Card sx={{ maxWidth: 350 }} style={{margin:"auto",marginTop:15}} >
             <CardMedia style={{width: "auto",margin:"auto",
@@ -26,8 +27,8 @@ export default function ProductCard({name,image,price}) {
                     ${price}
                 </Typography>
             </CardContent>
+            <QuantityInput stock={stock}/>
             <CardActions>
-
                 <Button size="small"><ShoppingCartIcon/> Agregar al carrito</Button>
                 <Button size="small"><FavoriteIcon/> Agregar a favoritos</Button>
             </CardActions>

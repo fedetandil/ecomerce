@@ -13,8 +13,8 @@ export default function CategoryHomeLayout({categoryName,items}) {
     const images = require.context("./images/products", true);
 
     items.forEach(item => {
-        const {name,image,price,key} = item;
-        data = [...data,<ProductCard key={key} name={name} image={images(image)} price={price}/>]
+        const {name,image,price,stock,key} = item;
+        data = [...data,<ProductCard key={key} name={name} image={images(image)} price={price} stock={stock}/>]
     })
     return (
         <>

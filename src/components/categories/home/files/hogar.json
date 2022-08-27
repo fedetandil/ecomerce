@@ -1,0 +1,30 @@
+[
+  {
+    "image": "./HeladeraKohinoor.png",
+    "key": "1",
+    "name": "Heladera Kohinoor",
+    "price": "150000",
+    "stock": 5
+  },
+  {
+    "name": "Cocina Electrolux",
+    "image": "./CocinaElectrolux.png",
+    "price": "89000",
+    "key": "2",
+    "stock": 5
+  },
+  {
+    "name": "Cocina Florencia",
+    "image": "./CocinaFlorencia.png",
+    "price": "121000",
+    "key": "3",
+    "stock": 5
+  },
+  {
+    "name": "Cocina Volcan",
+    "image": "./CocinaVolcan.png",
+    "price": "64000",
+    "key": "4",
+    "stock": 5
+  }
+]

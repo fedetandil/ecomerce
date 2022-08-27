@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Smart Tv 32 Philips",
+    "image": "./Tv32.png",
+    "price": "52000",
+    "key": "1",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 40 Philips",
+    "image": "./Tv40.png",
+    "price": "68000",
+    "key": "2",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 55 Philips",
+    "image": "./Tv55.png",
+    "price": "123000",
+    "key": "3",
+    "stock": 5
+  },
+  {
+    "name": "Smart Tv 43 LG",
+    "image": "./LG43.png",
+    "price": "75000",
+    "key": "4",
+    "stock": 5
+  }
+]
