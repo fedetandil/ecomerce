@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import AddIcon from '@mui/icons-material/Add';
-import RemoveIcon from '@mui/icons-material/Remove';
+import AddIcon from '@mui/icons-material/ArrowDropUp';
+import RemoveIcon from '@mui/icons-material/ArrowDropDown';
 
 
 export default function QuantityInput({stock}) {
@@ -13,9 +13,9 @@ export default function QuantityInput({stock}) {
 
     return (
         <>
-            <div style={{display: "flex"}}>
-                {quantity <= initialQuantity ? <Button className={"size"} disabled={true}><RemoveIcon/></Button> :
-                    <Button className={"size"} onClick={minusItem}><RemoveIcon/></Button>}
+            <div style={{display: "flex",flexDirection:"column"}}>
+                {quantity >= stock ? <Button disabled={true}><AddIcon/></Button> :
+                    <Button onClick={plusItem}><AddIcon/></Button>}
                 <TextField
                     type="tel"
                     value={quantity}
@@ -23,7 +23,7 @@ export default function QuantityInput({stock}) {
                         '& legend': {display: 'none'},
                         '& fieldset': {top: 0},
                     }}
-                    inputProps={{readOnly:true, style: {textAlign: "center", fontSize: "medium"}}}
+                    inputProps={{readOnly:true, style: {textAlign: "center", fontSize: "small"}}}
                     onChange={(e) => {
                         if (parseInt(e.target.value) >= stock) {
                             setQuantity(
@@ -40,8 +40,9 @@ export default function QuantityInput({stock}) {
                         }
                     }}
                 />
-                {quantity >= stock ? <Button className={"size"} disabled={true}><AddIcon/></Button> :
-                    <Button className={"size"} onClick={plusItem}><AddIcon/></Button>}
+                {quantity <= initialQuantity ? <Button  disabled={true}><RemoveIcon/></Button> :
+                    <Button  onClick={minusItem}><RemoveIcon/></Button>}
+
 
 
             </div>

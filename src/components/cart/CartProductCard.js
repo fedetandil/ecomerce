@@ -7,29 +7,33 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import QuantityInput from "../cart/QuantityInput/QuantityInput";
+import QuantityInput from "./QuantityInput/QuantityInput";
 
 
-export default function ProductCard({name,image,price,stock}) {
+export default function CardProductCard({name,image,price,stock}) {
     return (
-        <Card sx={{ maxWidth: 350 }} style={{margin:"auto",marginTop:15}} >
+        <Card sx={{ maxWidth: 500 }} style={{margin:"auto",marginTop:15,display:"flex",flexDirection:"row"}} >
             <CardMedia style={{width: "auto",margin:"auto",
-                maxHeight: "200px"}}
-                component="img"
-                alt="green iguana"
-                image={image}
+                maxHeight: "100px"}}
+                       component="img"
+                       alt="green iguana"
+                       image={image}
             />
             <CardContent style={{display:"flex",justifyContent:"space-between"}}>
-                <Typography gutterBottom variant="h6" component="div">
+                <div style={{display:"flex",flexDirection:"row",flexWrap:"wrap"}}>
+
+
+                <Typography gutterBottom  component="div" style={{margin:"auto"}}>
                     {name}
                 </Typography>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom  component="div" >
                     ${price}
                 </Typography>
+                </div>
             </CardContent>
+            <QuantityInput stock={stock}/>
             <CardActions>
-                <Button size="small"><ShoppingCartIcon/> Agregar al carrito</Button>
-                <Button size="small"><FavoriteIcon/> Agregar a favoritos</Button>
+                <Button size="small"><ShoppingCartIcon/>Delete</Button>
             </CardActions>
         </Card>
     );

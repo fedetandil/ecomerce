@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Logo from './images/logo/eshopsmall.png';
+import Cart from "../cart/Cart";
 
 const pages = ['Celulares', 'Tablets y Notebooks', 'Calefaccion','Lavarropas','Televisores'];
 
@@ -38,6 +39,7 @@ const NavBar = () => {
     return (
         <AppBar position="static" style={{backgroundColor:"#4cd4ca"}}>
             <Container maxWidth="xl">
+
                 <Toolbar disableGutters>
 
                     <Typography
@@ -93,6 +95,7 @@ const NavBar = () => {
                                 </MenuItem>
                             ))}
                         </Menu>
+
                     </Box>
                     <Typography
                         variant="h5"
@@ -122,6 +125,9 @@ const NavBar = () => {
                                 {page}
                             </Button>
                         ))}
+                    </Box>
+                    <Box>
+                        <Cart/>
                     </Box>
                 </Toolbar>
             </Container>
